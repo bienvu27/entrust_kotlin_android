@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Mobile SDK Example</string>
+    <string name="title_addIdentity">Add Identity</string>
+    <string name="prompt_serialNumber">Serial Number: </string>
+    <string name="prompt_activationCode">Activation Code: </string>
+    <string name="prompt_name">Name:</string>
+    <string name="prompt_address">Address:</string>
+    <string name="label_OK">OK</string>
+    <string name="label_cancel">Cancel</string>
+    <string name="label_confirm">Confirm</string>
+    <string name="label_concern">Concern</string>
+    <string name="label_yes">Yes</string>
+    <string name="label_no">No</string>
+    <string name="label_done">Done</string>
+    <string name="label_new_transactions">New Transactions</string>
+    <string name="error_createFailure">Unable to create a soft token identity: </string>
+    <string name="error_badSerialNum">The serial number was entered incorrectly. Check the number and try again.</string>
+    <string name="error_badActCode">The activation code was entered incorrectly. Check the number and try again.</string>
+    <string name="title_newPIN">Personal Identification Number</string>
+    <string name="intro_PIN">Your soft token identity needs to be protected with a %d digit PIN.</string>
+    <string name="prompt_newPIN">New PIN: </string>
+    <string name="prompt_confirmPIN">Confirm PIN: </string>
+    <string name="error_mismatchPIN">The PIN values do not match. Re-enter your PIN.</string>
+    <string name="title_regCode">Registration Code</string>
+    <string name="intro_regCode">Enter the registration code below into the Self-Service web page, or give it to your help-desk to complete adding the Identity.</string>
+    <string name="confirm_regCodeUse">Have you used the registration code yet? It will not be displayed again.</string>
+    <string name="title_securityCode">Security Code</string>
+    <string name="label_lifetime">&lt; Lifetime &gt;</string>
+    <string name="title_error">Error</string>
+    <string name="title_confirm">Confirm</string>
+    <string name="title_success">Success</string>
+    <string name="dialog_registering">Registering&#8230;</string>
+    <string name="dialog_responding">Responding to Transaction&#8230;</string>
+    <string name="dialog_retrieving">Retrieving Transaction&#8230;</string>
+    <string name="no_new_transactions_message">There are no new transactions.</string>
+    <string name="error_generating_confirmation_code">There was an error generating a confirmation code for the transaction.  Ensure that the details are correct and try again.  If the problem persists, try repeating the action that generated the transaction.</string>
+    <string name="transaction_success">Successfully completed transaction with %s response.</string>
+    <string name="transaction_failed">There was a problem attempting to complete the transaction, please try your response again.</string>
+    <string name="confirm_code_title">Confirmation Code:</string>
+    <string name="confirm_text">Enter the confirmation code below in your online application to complete the transaction.</string>
+    <string name="invalid_launch_link_error">The activation launch link was invalid.  Contact your identity provider and try again.</string>
+    <string name="label_scan_qr_code">QR Code</string>
+    <string name="scan_qr_code_error">There was an error scanning the QR code or the data returned was invalid.</string>
+    <string name="scan_qr_code_unknown_error">Unknown QR code operation.</string>
+    <string name="scan_qr_code_tampered_error_msg">The scanned transaction cannot be validated.  It may have been corrupted or tampered with.</string>
+    <string name="secure_activation_password_prompt_title">Password Required</string>
+    <string name="secure_activation_password_prompt_text">This link is secured by a password.  Enter the password to continue.</string>
+    <string name="pending_transactions">Pending transactions</string>
+
+
+    <string name="email_logs_chooser_title">Send bug report&#8230;</string>
+    <string name="email_logs_body">Please find the requested log files attached. These logs were captured on %s.
+    </string>
+    <string name="email_logs_subject">Entrust Mobile Soft Token Logs</string>
+    <string name="share_logs_message">Share logs with...</string>
+
+
+</resources>

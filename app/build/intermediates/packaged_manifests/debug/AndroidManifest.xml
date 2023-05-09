@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.entrust.identityGuard.mobile.sdk.example"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="26"
+        android:targetSdkVersion="33" />
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <!--
+ Required permission to be able to create and administer tokens in the Samsung
+     KNOX Trusted Execution Environment.
+    -->
+    <uses-permission android:name="android.permission.sec.OTP_PROVISION" />
+    <!-- Require external write permission in order to write log files. -->
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <!-- specific set of apps that sdk query for to check if the device is rooted or Jail broken -->
+    <queries>
+
+        <!-- known Root Apps Packages -->
+        <package android:name="com.noshufou.android.su" />
+        <package android:name="com.noshufou.android.su.elite" />
+        <package android:name="eu.chainfire.supersu" />
+        <package android:name="com.koushikdutta.superuser" />
+        <package android:name="com.thirdparty.superuser" />
+        <package android:name="com.yellowes.su" />
+        <package android:name="com.topjohnwu.magisk" />
+        <package android:name="com.superthomaslab.rootessentials" />
+        <package android:name="com.ram.memory.booster.cpu.saver" />
+        <package android:name="com.gagan.free.free.xram" />
+        <package android:name="com.franco.kernel" />
+        <package android:name="com.jumobile.manager.systemapp" />
+        <package android:name="com.jrummy.root.browserfree" />
+
+        <!-- known Dangerous Apps Packages -->
+        <package android:name="com.ramdroid.appquarantinepro" />
+        <package android:name="com.koushikdutta.rommanager" />
+        <package android:name="com.koushikdutta.rommanager.license" />
+        <package android:name="com.dimonvideo.luckypatcher" />
+        <package android:name="com.chelpus.lackypatch" />
+        <package android:name="com.ramdroid.appquarantine" />
+        <package android:name="com.android.vending.billing.InAppBillingService.COIN" />
+        <package android:name="com.chelpus.luckypatcher" />
+        <package android:name="me.twrp.twrpapp" />
+
+        <!-- known Root Cloaking Packages -->
+        <package android:name="com.devadvance.rootcloak" />
+        <package android:name="com.devadvance.rootcloakplus" />
+        <package android:name="de.robv.android.xposed.installer" />
+        <package android:name="com.saurik.substrate" />
+        <package android:name="com.zachspong.temprootremovejb" />
+        <package android:name="com.amphoras.hidemyroot" />
+        <package android:name="com.amphoras.hidemyrootadfree" />
+        <package android:name="com.formyhm.hiderootPremium" />
+        <package android:name="com.formyhm.hideroot" />
+
+        <!-- Dangerous and Root Cloaking apps packages -->
+        <package android:name="com.kingroot.kinguser" />
+        <package android:name="com.kingo.root" />
+        <package android:name="com.smedialink.oneclickroot" />
+        <package android:name="com.zhiqupk.root.global" />
+        <package android:name="com.alephzain.framaroot" />
+        <package android:name="com.android.vending.billing.InAppBillingService.LUCK" />
+        <package android:name="com.blackmartalpha" />
+        <package android:name="org.blackmart.market" />
+        <package android:name="com.allinone.free" />
+        <package android:name="com.repodroid.app" />
+        <package android:name="org.creeplays.hack" />
+        <package android:name="com.baseappfull.fwd" />
+        <package android:name="com.zmapp" />
+        <package android:name="com.dv.marketmod.installer" />
+        <package android:name="org.mobilism.android" />
+        <package android:name="com.android.wp.net.log" />
+        <package android:name="com.android.camera.update" />
+        <package android:name="cc.madkite.freedom" />
+        <package android:name="com.solohsu.android.edxp.manager" />
+        <package android:name="com.xmodgame" />
+        <package android:name="com.cih.game_cih" />
+        <package android:name="com.charles.lpoqasert" />
+        <package android:name="catch_.me_.if_.you_.can_" />
+    </queries>
+
+    <permission
+        android:name="com.entrust.identityGuard.mobile.sdk.example.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+        android:protectionLevel="signature" />
+
+    <uses-permission android:name="com.entrust.identityGuard.mobile.sdk.example.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+
+    <application
+        android:name="com.entrust.identityGuard.mobile.sdk.example.SampleApplication"
+        android:allowBackup="false"
+        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+        android:debuggable="true"
+        android:extractNativeLibs="false"
+        android:icon="@drawable/entrust"
+        android:label="@string/app_name"
+        android:testOnly="true"
+        android:theme="@style/AppBaseTheme" >
+        <activity
+            android:name="com.entrust.identityGuard.mobile.sdk.example.AddIdentity"
+            android:clearTaskOnLaunch="true"
+            android:configChanges="orientation|keyboardHidden"
+            android:exported="true" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.entrust.identityGuard.mobile.sdk.example.EstablishPIN"
+            android:configChanges="orientation|keyboardHidden" />
+        <activity
+            android:name="com.entrust.identityGuard.mobile.sdk.example.RegistrationCode"
+            android:configChanges="orientation|keyboardHidden" />
+        <activity
+            android:name="com.entrust.identityGuard.mobile.sdk.example.SecurityCode"
+            android:configChanges="orientation|keyboardHidden" />
+        <activity
+            android:name="com.entrust.identityGuard.mobile.sdk.example.OnlineActivation"
+            android:configChanges="orientation|keyboardHidden"
+            android:exported="true" >
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+
+                <data android:scheme="igmobileotp" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.entrust.identityGuard.mobile.sdk.example.TransactionProcess"
+            android:configChanges="orientation|keyboardHidden" />
+        <activity
+            android:name="com.entrust.identityGuard.mobile.sdk.example.ClassicTransaction"
+            android:configChanges="orientation|keyboardHidden" />
+        <!-- File Provider Starts -->
+        <provider
+            android:name="androidx.core.content.FileProvider"
+            android:authorities="com.entrust.identityGuard.mobile.sdk.example.fileProvider"
+            android:exported="false"
+            android:grantUriPermissions="true" >
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/application_log_file_path" />
+        </provider>
+    </application>
+
+</manifest>

@@ -1,0 +1,442 @@
+-- Merging decision tree log ---
+manifest
+ADDED from C:\Users\Inspiron 15\Downloads\entrust\IGMobileSDK\Android\example\app\src\main\AndroidManifest.xml:2:1-75:12
+INJECTED from C:\Users\Inspiron 15\Downloads\entrust\IGMobileSDK\Android\example\app\src\main\AndroidManifest.xml:2:1-75:12
+INJECTED from C:\Users\Inspiron 15\Downloads\entrust\IGMobileSDK\Android\example\app\src\main\AndroidManifest.xml:2:1-75:12
+INJECTED from C:\Users\Inspiron 15\Downloads\entrust\IGMobileSDK\Android\example\app\src\main\AndroidManifest.xml:2:1-75:12
+MERGED from [igmobile-sdk-android-latest.aar] C:\Users\Inspiron 15\.gradle\caches\transforms-3\2183ff8638fdaa6da2b8274d9d509ee6\transformed\jetified-igmobile-sdk-android-latest\AndroidManifest.xml:2:1-79:12
+MERGED from [androidx.core:core-ktx:1.12.0-alpha01] C:\Users\Inspiron 15\.gradle\caches\transforms-3\868a9b0acb6e6d853bcd1c078d796331\transformed\jetified-core-ktx-1.12.0-alpha01\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.recyclerview:recyclerview:1.2.1] C:\Users\Inspiron 15\.gradle\caches\transforms-3\c40f7183797344df8dfe8e86b83b3726\transformed\recyclerview-1.2.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.customview:customview:1.0.0] C:\Users\Inspiron 15\.gradle\caches\transforms-3\450fd996ceac74803bb73af59118e6dc\transformed\customview-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core:1.12.0-alpha01] C:\Users\Inspiron 15\.gradle\caches\transforms-3\757068796e85a85f57cb1145fdbacb5e\transformed\core-1.12.0-alpha01\AndroidManifest.xml:17:1-30:12
+MERGED from [com.scottyab:rootbeer-lib:0.1.0] C:\Users\Inspiron 15\.gradle\caches\transforms-3\44b143af7fe7193597c6b28a0e1dc38d\transformed\jetified-rootbeer-lib-0.1.0\AndroidManifest.xml:2:1-13:12
+MERGED from [androidx.annotation:annotation-experimental:1.3.0] C:\Users\Inspiron 15\.gradle\caches\transforms-3\d64eac1bf07bc63a4d46bfb6336eed5b\transformed\jetified-annotation-experimental-1.3.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\Inspiron 15\.gradle\caches\transforms-3\22662919131f3f9c27633ff4b196d547\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\Inspiron 15\.gradle\caches\transforms-3\4dfdadadf03c24bce651569c4e550705\transformed\interpolator-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.3.1] C:\Users\Inspiron 15\.gradle\caches\transforms-3\91484c8886ea62fa55ade52fa7a617c1\transformed\lifecycle-runtime-2.3.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.arch.core:core-runtime:2.1.0] C:\Users\Inspiron 15\.gradle\caches\transforms-3\fd309f60b3eb9706aa0dfbd96dbb4d9f\transformed\core-runtime-2.1.0\AndroidManifest.xml:17:1-24:12
+INJECTED from C:\Users\Inspiron 15\Downloads\entrust\IGMobileSDK\Android\example\app\src\main\AndroidManifest.xml:2:1-75:12
+INJECTED from C:\Users\Inspiron 15\Downloads\entrust\IGMobileSDK\Android\example\app\src\main\AndroidManifest.xml:2:1-75:12
+INJECTED from C:\Users\Inspiron 15\Downloads\entrust\IGMobileSDK\Android\example\app\src\main\AndroidManifest.xml:2:1-75:12
+	package
+		ADDED from C:\Users\Inspiron 15\Downloads\entrust\IGMobileSDK\Android\example\app\src\main\AndroidManifest.xml:4:5-59
+		INJECTED from C:\Users\Inspiron 15\Downloads\entrust\IGMobileSDK\Android\example\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Inspiron 15\Downloads\entrust\IGMobileSDK\Android\example\app\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from C:\Users\Inspiron 15\Downloads\entrust\IGMobileSDK\Android\example\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\Inspiron 15\Downloads\entrust\IGMobileSDK\Android\example\app\src\main\AndroidManifest.xml:2:1-75:12
+		INJECTED from C:\Users\Inspiron 15\Downloads\entrust\IGMobileSDK\Android\example\app\src\main\AndroidManifest.xml
+	xmlns:tools
+		ADDED from C:\Users\Inspiron 15\Downloads\entrust\IGMobileSDK\Android\example\app\src\main\AndroidManifest.xml:3:5-51
+	android:versionCode
+		INJECTED from C:\Users\Inspiron 15\Downloads\entrust\IGMobileSDK\Android\example\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\Inspiron 15\Downloads\entrust\IGMobileSDK\Android\example\app\src\main\AndroidManifest.xml:2:1-75:12
+		INJECTED from C:\Users\Inspiron 15\Downloads\entrust\IGMobileSDK\Android\example\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from C:\Users\Inspiron 15\Downloads\entrust\IGMobileSDK\Android\example\app\src\main\AndroidManifest.xml:2:11-69
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from C:\Users\Inspiron 15\Downloads\entrust\IGMobileSDK\Android\example\app\src\main\AndroidManifest.xml:6:5-79
+	android:name
+		ADDED from C:\Users\Inspiron 15\Downloads\entrust\IGMobileSDK\Android\example\app\src\main\AndroidManifest.xml:6:22-76
+uses-permission#android.permission.INTERNET
+ADDED from C:\Users\Inspiron 15\Downloads\entrust\IGMobileSDK\Android\example\app\src\main\AndroidManifest.xml:7:5-67
+	android:name
+		ADDED from C:\Users\Inspiron 15\Downloads\entrust\IGMobileSDK\Android\example\app\src\main\AndroidManifest.xml:7:22-64
+uses-sdk
+ADDED from C:\Users\Inspiron 15\Downloads\entrust\IGMobileSDK\Android\example\app\src\main\AndroidManifest.xml:9:5-59
+INJECTED from C:\Users\Inspiron 15\Downloads\entrust\IGMobileSDK\Android\example\app\src\main\AndroidManifest.xml:9:5-59
+INJECTED from C:\Users\Inspiron 15\Downloads\entrust\IGMobileSDK\Android\example\app\src\main\AndroidManifest.xml:9:5-59
+MERGED from [igmobile-sdk-android-latest.aar] C:\Users\Inspiron 15\.gradle\caches\transforms-3\2183ff8638fdaa6da2b8274d9d509ee6\transformed\jetified-igmobile-sdk-android-latest\AndroidManifest.xml:5:5-7:41
+MERGED from [igmobile-sdk-android-latest.aar] C:\Users\Inspiron 15\.gradle\caches\transforms-3\2183ff8638fdaa6da2b8274d9d509ee6\transformed\jetified-igmobile-sdk-android-latest\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.core:core-ktx:1.12.0-alpha01] C:\Users\Inspiron 15\.gradle\caches\transforms-3\868a9b0acb6e6d853bcd1c078d796331\transformed\jetified-core-ktx-1.12.0-alpha01\AndroidManifest.xml:5:5-44
+MERGED from [androidx.core:core-ktx:1.12.0-alpha01] C:\Users\Inspiron 15\.gradle\caches\transforms-3\868a9b0acb6e6d853bcd1c078d796331\transformed\jetified-core-ktx-1.12.0-alpha01\AndroidManifest.xml:5:5-44
+MERGED from [androidx.recyclerview:recyclerview:1.2.1] C:\Users\Inspiron 15\.gradle\caches\transforms-3\c40f7183797344df8dfe8e86b83b3726\transformed\recyclerview-1.2.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.recyclerview:recyclerview:1.2.1] C:\Users\Inspiron 15\.gradle\caches\transforms-3\c40f7183797344df8dfe8e86b83b3726\transformed\recyclerview-1.2.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.customview:customview:1.0.0] C:\Users\Inspiron 15\.gradle\caches\transforms-3\450fd996ceac74803bb73af59118e6dc\transformed\customview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] C:\Users\Inspiron 15\.gradle\caches\transforms-3\450fd996ceac74803bb73af59118e6dc\transformed\customview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.12.0-alpha01] C:\Users\Inspiron 15\.gradle\caches\transforms-3\757068796e85a85f57cb1145fdbacb5e\transformed\core-1.12.0-alpha01\AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.12.0-alpha01] C:\Users\Inspiron 15\.gradle\caches\transforms-3\757068796e85a85f57cb1145fdbacb5e\transformed\core-1.12.0-alpha01\AndroidManifest.xml:20:5-44
+MERGED from [com.scottyab:rootbeer-lib:0.1.0] C:\Users\Inspiron 15\.gradle\caches\transforms-3\44b143af7fe7193597c6b28a0e1dc38d\transformed\jetified-rootbeer-lib-0.1.0\AndroidManifest.xml:7:5-9:41
+MERGED from [com.scottyab:rootbeer-lib:0.1.0] C:\Users\Inspiron 15\.gradle\caches\transforms-3\44b143af7fe7193597c6b28a0e1dc38d\transformed\jetified-rootbeer-lib-0.1.0\AndroidManifest.xml:7:5-9:41
+MERGED from [androidx.annotation:annotation-experimental:1.3.0] C:\Users\Inspiron 15\.gradle\caches\transforms-3\d64eac1bf07bc63a4d46bfb6336eed5b\transformed\jetified-annotation-experimental-1.3.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.3.0] C:\Users\Inspiron 15\.gradle\caches\transforms-3\d64eac1bf07bc63a4d46bfb6336eed5b\transformed\jetified-annotation-experimental-1.3.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\Inspiron 15\.gradle\caches\transforms-3\22662919131f3f9c27633ff4b196d547\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\Inspiron 15\.gradle\caches\transforms-3\22662919131f3f9c27633ff4b196d547\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\Inspiron 15\.gradle\caches\transforms-3\4dfdadadf03c24bce651569c4e550705\transformed\interpolator-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\Inspiron 15\.gradle\caches\transforms-3\4dfdadadf03c24bce651569c4e550705\transformed\interpolator-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.3.1] C:\Users\Inspiron 15\.gradle\caches\transforms-3\91484c8886ea62fa55ade52fa7a617c1\transformed\lifecycle-runtime-2.3.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.3.1] C:\Users\Inspiron 15\.gradle\caches\transforms-3\91484c8886ea62fa55ade52fa7a617c1\transformed\lifecycle-runtime-2.3.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] C:\Users\Inspiron 15\.gradle\caches\transforms-3\fd309f60b3eb9706aa0dfbd96dbb4d9f\transformed\core-runtime-2.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] C:\Users\Inspiron 15\.gradle\caches\transforms-3\fd309f60b3eb9706aa0dfbd96dbb4d9f\transformed\core-runtime-2.1.0\AndroidManifest.xml:20:5-22:41
+INJECTED from C:\Users\Inspiron 15\Downloads\entrust\IGMobileSDK\Android\example\app\src\main\AndroidManifest.xml:9:5-59
+INJECTED from C:\Users\Inspiron 15\Downloads\entrust\IGMobileSDK\Android\example\app\src\main\AndroidManifest.xml:9:5-59
+	tools:overrideLibrary
+		ADDED from C:\Users\Inspiron 15\Downloads\entrust\IGMobileSDK\Android\example\app\src\main\AndroidManifest.xml:9:15-56
+	android:targetSdkVersion
+		INJECTED from C:\Users\Inspiron 15\Downloads\entrust\IGMobileSDK\Android\example\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\Inspiron 15\Downloads\entrust\IGMobileSDK\Android\example\app\src\main\AndroidManifest.xml:9:5-59
+		INJECTED from C:\Users\Inspiron 15\Downloads\entrust\IGMobileSDK\Android\example\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from C:\Users\Inspiron 15\Downloads\entrust\IGMobileSDK\Android\example\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\Inspiron 15\Downloads\entrust\IGMobileSDK\Android\example\app\src\main\AndroidManifest.xml:9:5-59
+		INJECTED from C:\Users\Inspiron 15\Downloads\entrust\IGMobileSDK\Android\example\app\src\main\AndroidManifest.xml
+uses-permission#android.permission.sec.OTP_PROVISION
+ADDED from C:\Users\Inspiron 15\Downloads\entrust\IGMobileSDK\Android\example\app\src\main\AndroidManifest.xml:14:5-76
+	android:name
+		ADDED from C:\Users\Inspiron 15\Downloads\entrust\IGMobileSDK\Android\example\app\src\main\AndroidManifest.xml:14:22-73
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from C:\Users\Inspiron 15\Downloads\entrust\IGMobileSDK\Android\example\app\src\main\AndroidManifest.xml:16:5-81
+	android:name
+		ADDED from C:\Users\Inspiron 15\Downloads\entrust\IGMobileSDK\Android\example\app\src\main\AndroidManifest.xml:16:22-78
+application
+ADDED from C:\Users\Inspiron 15\Downloads\entrust\IGMobileSDK\Android\example\app\src\main\AndroidManifest.xml:19:5-73:19
+MERGED from [igmobile-sdk-android-latest.aar] C:\Users\Inspiron 15\.gradle\caches\transforms-3\2183ff8638fdaa6da2b8274d9d509ee6\transformed\jetified-igmobile-sdk-android-latest\AndroidManifest.xml:75:5-77:44
+MERGED from [igmobile-sdk-android-latest.aar] C:\Users\Inspiron 15\.gradle\caches\transforms-3\2183ff8638fdaa6da2b8274d9d509ee6\transformed\jetified-igmobile-sdk-android-latest\AndroidManifest.xml:75:5-77:44
+MERGED from [androidx.core:core:1.12.0-alpha01] C:\Users\Inspiron 15\.gradle\caches\transforms-3\757068796e85a85f57cb1145fdbacb5e\transformed\core-1.12.0-alpha01\AndroidManifest.xml:28:5-89
+MERGED from [androidx.core:core:1.12.0-alpha01] C:\Users\Inspiron 15\.gradle\caches\transforms-3\757068796e85a85f57cb1145fdbacb5e\transformed\core-1.12.0-alpha01\AndroidManifest.xml:28:5-89
+MERGED from [com.scottyab:rootbeer-lib:0.1.0] C:\Users\Inspiron 15\.gradle\caches\transforms-3\44b143af7fe7193597c6b28a0e1dc38d\transformed\jetified-rootbeer-lib-0.1.0\AndroidManifest.xml:11:5-20
+MERGED from [com.scottyab:rootbeer-lib:0.1.0] C:\Users\Inspiron 15\.gradle\caches\transforms-3\44b143af7fe7193597c6b28a0e1dc38d\transformed\jetified-rootbeer-lib-0.1.0\AndroidManifest.xml:11:5-20
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\Inspiron 15\.gradle\caches\transforms-3\22662919131f3f9c27633ff4b196d547\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\Inspiron 15\.gradle\caches\transforms-3\22662919131f3f9c27633ff4b196d547\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:24:5-25:19
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.12.0-alpha01] C:\Users\Inspiron 15\.gradle\caches\transforms-3\757068796e85a85f57cb1145fdbacb5e\transformed\core-1.12.0-alpha01\AndroidManifest.xml:28:18-86
+	android:label
+		ADDED from C:\Users\Inspiron 15\Downloads\entrust\IGMobileSDK\Android\example\app\src\main\AndroidManifest.xml:22:9-41
+	android:allowBackup
+		ADDED from [igmobile-sdk-android-latest.aar] C:\Users\Inspiron 15\.gradle\caches\transforms-3\2183ff8638fdaa6da2b8274d9d509ee6\transformed\jetified-igmobile-sdk-android-latest\AndroidManifest.xml:76:9-36
+	android:icon
+		ADDED from C:\Users\Inspiron 15\Downloads\entrust\IGMobileSDK\Android\example\app\src\main\AndroidManifest.xml:21:9-41
+	android:theme
+		ADDED from C:\Users\Inspiron 15\Downloads\entrust\IGMobileSDK\Android\example\app\src\main\AndroidManifest.xml:23:9-44
+	android:name
+		ADDED from C:\Users\Inspiron 15\Downloads\entrust\IGMobileSDK\Android\example\app\src\main\AndroidManifest.xml:20:9-42
+activity#com.entrust.identityGuard.mobile.sdk.example.AddIdentity
+ADDED from C:\Users\Inspiron 15\Downloads\entrust\IGMobileSDK\Android\example\app\src\main\AndroidManifest.xml:24:9-34:20
+	android:clearTaskOnLaunch
+		ADDED from C:\Users\Inspiron 15\Downloads\entrust\IGMobileSDK\Android\example\app\src\main\AndroidManifest.xml:26:13-45
+	android:exported
+		ADDED from C:\Users\Inspiron 15\Downloads\entrust\IGMobileSDK\Android\example\app\src\main\AndroidManifest.xml:28:13-36
+	android:configChanges
+		ADDED from C:\Users\Inspiron 15\Downloads\entrust\IGMobileSDK\Android\example\app\src\main\AndroidManifest.xml:27:13-63
+	android:name
+		ADDED from C:\Users\Inspiron 15\Downloads\entrust\IGMobileSDK\Android\example\app\src\main\AndroidManifest.xml:25:13-40
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from C:\Users\Inspiron 15\Downloads\entrust\IGMobileSDK\Android\example\app\src\main\AndroidManifest.xml:29:13-33:29
+action#android.intent.action.MAIN
+ADDED from C:\Users\Inspiron 15\Downloads\entrust\IGMobileSDK\Android\example\app\src\main\AndroidManifest.xml:30:17-69
+	android:name
+		ADDED from C:\Users\Inspiron 15\Downloads\entrust\IGMobileSDK\Android\example\app\src\main\AndroidManifest.xml:30:25-66
+category#android.intent.category.LAUNCHER
+ADDED from C:\Users\Inspiron 15\Downloads\entrust\IGMobileSDK\Android\example\app\src\main\AndroidManifest.xml:32:17-77
+	android:name
+		ADDED from C:\Users\Inspiron 15\Downloads\entrust\IGMobileSDK\Android\example\app\src\main\AndroidManifest.xml:32:27-74
+activity#com.entrust.identityGuard.mobile.sdk.example.EstablishPIN
+ADDED from C:\Users\Inspiron 15\Downloads\entrust\IGMobileSDK\Android\example\app\src\main\AndroidManifest.xml:35:9-37:66
+	android:configChanges
+		ADDED from C:\Users\Inspiron 15\Downloads\entrust\IGMobileSDK\Android\example\app\src\main\AndroidManifest.xml:37:13-63
+	android:name
+		ADDED from C:\Users\Inspiron 15\Downloads\entrust\IGMobileSDK\Android\example\app\src\main\AndroidManifest.xml:36:13-41
+activity#com.entrust.identityGuard.mobile.sdk.example.RegistrationCode
+ADDED from C:\Users\Inspiron 15\Downloads\entrust\IGMobileSDK\Android\example\app\src\main\AndroidManifest.xml:38:9-40:66
+	android:configChanges
+		ADDED from C:\Users\Inspiron 15\Downloads\entrust\IGMobileSDK\Android\example\app\src\main\AndroidManifest.xml:40:13-63
+	android:name
+		ADDED from C:\Users\Inspiron 15\Downloads\entrust\IGMobileSDK\Android\example\app\src\main\AndroidManifest.xml:39:13-45
+activity#com.entrust.identityGuard.mobile.sdk.example.SecurityCode
+ADDED from C:\Users\Inspiron 15\Downloads\entrust\IGMobileSDK\Android\example\app\src\main\AndroidManifest.xml:41:9-43:66
+	android:configChanges
+		ADDED from C:\Users\Inspiron 15\Downloads\entrust\IGMobileSDK\Android\example\app\src\main\AndroidManifest.xml:43:13-63
+	android:name
+		ADDED from C:\Users\Inspiron 15\Downloads\entrust\IGMobileSDK\Android\example\app\src\main\AndroidManifest.xml:42:13-41
+activity#com.entrust.identityGuard.mobile.sdk.example.OnlineActivation
+ADDED from C:\Users\Inspiron 15\Downloads\entrust\IGMobileSDK\Android\example\app\src\main\AndroidManifest.xml:44:9-56:20
+	android:exported
+		ADDED from C:\Users\Inspiron 15\Downloads\entrust\IGMobileSDK\Android\example\app\src\main\AndroidManifest.xml:47:13-36
+	android:configChanges
+		ADDED from C:\Users\Inspiron 15\Downloads\entrust\IGMobileSDK\Android\example\app\src\main\AndroidManifest.xml:46:13-63
+	android:name
+		ADDED from C:\Users\Inspiron 15\Downloads\entrust\IGMobileSDK\Android\example\app\src\main\AndroidManifest.xml:45:13-45
+intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+category:name:android.intent.category.DEFAULT+data:scheme:igmobileotp
+ADDED from C:\Users\Inspiron 15\Downloads\entrust\IGMobileSDK\Android\example\app\src\main\AndroidManifest.xml:48:13-55:29
+action#android.intent.action.VIEW
+ADDED from C:\Users\Inspiron 15\Downloads\entrust\IGMobileSDK\Android\example\app\src\main\AndroidManifest.xml:49:17-69
+	android:name
+		ADDED from C:\Users\Inspiron 15\Downloads\entrust\IGMobileSDK\Android\example\app\src\main\AndroidManifest.xml:49:25-66
+category#android.intent.category.DEFAULT
+ADDED from C:\Users\Inspiron 15\Downloads\entrust\IGMobileSDK\Android\example\app\src\main\AndroidManifest.xml:51:17-76
+	android:name
+		ADDED from C:\Users\Inspiron 15\Downloads\entrust\IGMobileSDK\Android\example\app\src\main\AndroidManifest.xml:51:27-73
+category#android.intent.category.BROWSABLE
+ADDED from C:\Users\Inspiron 15\Downloads\entrust\IGMobileSDK\Android\example\app\src\main\AndroidManifest.xml:52:17-78
+	android:name
+		ADDED from C:\Users\Inspiron 15\Downloads\entrust\IGMobileSDK\Android\example\app\src\main\AndroidManifest.xml:52:27-75
+data
+ADDED from C:\Users\Inspiron 15\Downloads\entrust\IGMobileSDK\Android\example\app\src\main\AndroidManifest.xml:54:17-54
+	android:scheme
+		ADDED from C:\Users\Inspiron 15\Downloads\entrust\IGMobileSDK\Android\example\app\src\main\AndroidManifest.xml:54:23-51
+activity#com.entrust.identityGuard.mobile.sdk.example.TransactionProcess
+ADDED from C:\Users\Inspiron 15\Downloads\entrust\IGMobileSDK\Android\example\app\src\main\AndroidManifest.xml:57:9-59:66
+	android:configChanges
+		ADDED from C:\Users\Inspiron 15\Downloads\entrust\IGMobileSDK\Android\example\app\src\main\AndroidManifest.xml:59:13-63
+	android:name
+		ADDED from C:\Users\Inspiron 15\Downloads\entrust\IGMobileSDK\Android\example\app\src\main\AndroidManifest.xml:58:13-47
+activity#com.entrust.identityGuard.mobile.sdk.example.ClassicTransaction
+ADDED from C:\Users\Inspiron 15\Downloads\entrust\IGMobileSDK\Android\example\app\src\main\AndroidManifest.xml:60:9-62:66
+	android:configChanges
+		ADDED from C:\Users\Inspiron 15\Downloads\entrust\IGMobileSDK\Android\example\app\src\main\AndroidManifest.xml:62:13-63
+	android:name
+		ADDED from C:\Users\Inspiron 15\Downloads\entrust\IGMobileSDK\Android\example\app\src\main\AndroidManifest.xml:61:13-47
+provider#androidx.core.content.FileProvider
+ADDED from C:\Users\Inspiron 15\Downloads\entrust\IGMobileSDK\Android\example\app\src\main\AndroidManifest.xml:64:9-72:20
+	android:grantUriPermissions
+		ADDED from C:\Users\Inspiron 15\Downloads\entrust\IGMobileSDK\Android\example\app\src\main\AndroidManifest.xml:68:13-47
+	android:authorities
+		ADDED from C:\Users\Inspiron 15\Downloads\entrust\IGMobileSDK\Android\example\app\src\main\AndroidManifest.xml:66:13-92
+	android:exported
+		ADDED from C:\Users\Inspiron 15\Downloads\entrust\IGMobileSDK\Android\example\app\src\main\AndroidManifest.xml:67:13-37
+	android:name
+		ADDED from C:\Users\Inspiron 15\Downloads\entrust\IGMobileSDK\Android\example\app\src\main\AndroidManifest.xml:65:13-62
+meta-data#android.support.FILE_PROVIDER_PATHS
+ADDED from C:\Users\Inspiron 15\Downloads\entrust\IGMobileSDK\Android\example\app\src\main\AndroidManifest.xml:69:13-71:69
+	android:resource
+		ADDED from C:\Users\Inspiron 15\Downloads\entrust\IGMobileSDK\Android\example\app\src\main\AndroidManifest.xml:71:17-66
+	android:name
+		ADDED from C:\Users\Inspiron 15\Downloads\entrust\IGMobileSDK\Android\example\app\src\main\AndroidManifest.xml:70:17-67
+queries
+ADDED from [igmobile-sdk-android-latest.aar] C:\Users\Inspiron 15\.gradle\caches\transforms-3\2183ff8638fdaa6da2b8274d9d509ee6\transformed\jetified-igmobile-sdk-android-latest\AndroidManifest.xml:10:5-73:15
+package#com.noshufou.android.su
+ADDED from [igmobile-sdk-android-latest.aar] C:\Users\Inspiron 15\.gradle\caches\transforms-3\2183ff8638fdaa6da2b8274d9d509ee6\transformed\jetified-igmobile-sdk-android-latest\AndroidManifest.xml:13:9-59
+	android:name
+		ADDED from [igmobile-sdk-android-latest.aar] C:\Users\Inspiron 15\.gradle\caches\transforms-3\2183ff8638fdaa6da2b8274d9d509ee6\transformed\jetified-igmobile-sdk-android-latest\AndroidManifest.xml:13:18-56
+package#com.noshufou.android.su.elite
+ADDED from [igmobile-sdk-android-latest.aar] C:\Users\Inspiron 15\.gradle\caches\transforms-3\2183ff8638fdaa6da2b8274d9d509ee6\transformed\jetified-igmobile-sdk-android-latest\AndroidManifest.xml:14:9-65
+	android:name
+		ADDED from [igmobile-sdk-android-latest.aar] C:\Users\Inspiron 15\.gradle\caches\transforms-3\2183ff8638fdaa6da2b8274d9d509ee6\transformed\jetified-igmobile-sdk-android-latest\AndroidManifest.xml:14:18-62
+package#eu.chainfire.supersu
+ADDED from [igmobile-sdk-android-latest.aar] C:\Users\Inspiron 15\.gradle\caches\transforms-3\2183ff8638fdaa6da2b8274d9d509ee6\transformed\jetified-igmobile-sdk-android-latest\AndroidManifest.xml:15:9-56
+	android:name
+		ADDED from [igmobile-sdk-android-latest.aar] C:\Users\Inspiron 15\.gradle\caches\transforms-3\2183ff8638fdaa6da2b8274d9d509ee6\transformed\jetified-igmobile-sdk-android-latest\AndroidManifest.xml:15:18-53
+package#com.koushikdutta.superuser
+ADDED from [igmobile-sdk-android-latest.aar] C:\Users\Inspiron 15\.gradle\caches\transforms-3\2183ff8638fdaa6da2b8274d9d509ee6\transformed\jetified-igmobile-sdk-android-latest\AndroidManifest.xml:16:9-62
+	android:name
+		ADDED from [igmobile-sdk-android-latest.aar] C:\Users\Inspiron 15\.gradle\caches\transforms-3\2183ff8638fdaa6da2b8274d9d509ee6\transformed\jetified-igmobile-sdk-android-latest\AndroidManifest.xml:16:18-59
+package#com.thirdparty.superuser
+ADDED from [igmobile-sdk-android-latest.aar] C:\Users\Inspiron 15\.gradle\caches\transforms-3\2183ff8638fdaa6da2b8274d9d509ee6\transformed\jetified-igmobile-sdk-android-latest\AndroidManifest.xml:17:9-60
+	android:name
+		ADDED from [igmobile-sdk-android-latest.aar] C:\Users\Inspiron 15\.gradle\caches\transforms-3\2183ff8638fdaa6da2b8274d9d509ee6\transformed\jetified-igmobile-sdk-android-latest\AndroidManifest.xml:17:18-57
+package#com.yellowes.su
+ADDED from [igmobile-sdk-android-latest.aar] C:\Users\Inspiron 15\.gradle\caches\transforms-3\2183ff8638fdaa6da2b8274d9d509ee6\transformed\jetified-igmobile-sdk-android-latest\AndroidManifest.xml:18:9-51
+	android:name
+		ADDED from [igmobile-sdk-android-latest.aar] C:\Users\Inspiron 15\.gradle\caches\transforms-3\2183ff8638fdaa6da2b8274d9d509ee6\transformed\jetified-igmobile-sdk-android-latest\AndroidManifest.xml:18:18-48
+package#com.topjohnwu.magisk
+ADDED from [igmobile-sdk-android-latest.aar] C:\Users\Inspiron 15\.gradle\caches\transforms-3\2183ff8638fdaa6da2b8274d9d509ee6\transformed\jetified-igmobile-sdk-android-latest\AndroidManifest.xml:19:9-56
+	android:name
+		ADDED from [igmobile-sdk-android-latest.aar] C:\Users\Inspiron 15\.gradle\caches\transforms-3\2183ff8638fdaa6da2b8274d9d509ee6\transformed\jetified-igmobile-sdk-android-latest\AndroidManifest.xml:19:18-53
+package#com.superthomaslab.rootessentials
+ADDED from [igmobile-sdk-android-latest.aar] C:\Users\Inspiron 15\.gradle\caches\transforms-3\2183ff8638fdaa6da2b8274d9d509ee6\transformed\jetified-igmobile-sdk-android-latest\AndroidManifest.xml:20:9-69
+	android:name
+		ADDED from [igmobile-sdk-android-latest.aar] C:\Users\Inspiron 15\.gradle\caches\transforms-3\2183ff8638fdaa6da2b8274d9d509ee6\transformed\jetified-igmobile-sdk-android-latest\AndroidManifest.xml:20:18-66
+package#com.ram.memory.booster.cpu.saver
+ADDED from [igmobile-sdk-android-latest.aar] C:\Users\Inspiron 15\.gradle\caches\transforms-3\2183ff8638fdaa6da2b8274d9d509ee6\transformed\jetified-igmobile-sdk-android-latest\AndroidManifest.xml:21:9-68
+	android:name
+		ADDED from [igmobile-sdk-android-latest.aar] C:\Users\Inspiron 15\.gradle\caches\transforms-3\2183ff8638fdaa6da2b8274d9d509ee6\transformed\jetified-igmobile-sdk-android-latest\AndroidManifest.xml:21:18-65
+package#com.gagan.free.free.xram
+ADDED from [igmobile-sdk-android-latest.aar] C:\Users\Inspiron 15\.gradle\caches\transforms-3\2183ff8638fdaa6da2b8274d9d509ee6\transformed\jetified-igmobile-sdk-android-latest\AndroidManifest.xml:22:9-60
+	android:name
+		ADDED from [igmobile-sdk-android-latest.aar] C:\Users\Inspiron 15\.gradle\caches\transforms-3\2183ff8638fdaa6da2b8274d9d509ee6\transformed\jetified-igmobile-sdk-android-latest\AndroidManifest.xml:22:18-57
+package#com.franco.kernel
+ADDED from [igmobile-sdk-android-latest.aar] C:\Users\Inspiron 15\.gradle\caches\transforms-3\2183ff8638fdaa6da2b8274d9d509ee6\transformed\jetified-igmobile-sdk-android-latest\AndroidManifest.xml:23:9-53
+	android:name
+		ADDED from [igmobile-sdk-android-latest.aar] C:\Users\Inspiron 15\.gradle\caches\transforms-3\2183ff8638fdaa6da2b8274d9d509ee6\transformed\jetified-igmobile-sdk-android-latest\AndroidManifest.xml:23:18-50
+package#com.jumobile.manager.systemapp
+ADDED from [igmobile-sdk-android-latest.aar] C:\Users\Inspiron 15\.gradle\caches\transforms-3\2183ff8638fdaa6da2b8274d9d509ee6\transformed\jetified-igmobile-sdk-android-latest\AndroidManifest.xml:24:9-66
+	android:name
+		ADDED from [igmobile-sdk-android-latest.aar] C:\Users\Inspiron 15\.gradle\caches\transforms-3\2183ff8638fdaa6da2b8274d9d509ee6\transformed\jetified-igmobile-sdk-android-latest\AndroidManifest.xml:24:18-63
+package#com.jrummy.root.browserfree
+ADDED from [igmobile-sdk-android-latest.aar] C:\Users\Inspiron 15\.gradle\caches\transforms-3\2183ff8638fdaa6da2b8274d9d509ee6\transformed\jetified-igmobile-sdk-android-latest\AndroidManifest.xml:25:9-63
+	android:name
+		ADDED from [igmobile-sdk-android-latest.aar] C:\Users\Inspiron 15\.gradle\caches\transforms-3\2183ff8638fdaa6da2b8274d9d509ee6\transformed\jetified-igmobile-sdk-android-latest\AndroidManifest.xml:25:18-60
+package#com.ramdroid.appquarantinepro
+ADDED from [igmobile-sdk-android-latest.aar] C:\Users\Inspiron 15\.gradle\caches\transforms-3\2183ff8638fdaa6da2b8274d9d509ee6\transformed\jetified-igmobile-sdk-android-latest\AndroidManifest.xml:28:9-65
+	android:name
+		ADDED from [igmobile-sdk-android-latest.aar] C:\Users\Inspiron 15\.gradle\caches\transforms-3\2183ff8638fdaa6da2b8274d9d509ee6\transformed\jetified-igmobile-sdk-android-latest\AndroidManifest.xml:28:18-62
+package#com.koushikdutta.rommanager
+ADDED from [igmobile-sdk-android-latest.aar] C:\Users\Inspiron 15\.gradle\caches\transforms-3\2183ff8638fdaa6da2b8274d9d509ee6\transformed\jetified-igmobile-sdk-android-latest\AndroidManifest.xml:29:9-63
+	android:name
+		ADDED from [igmobile-sdk-android-latest.aar] C:\Users\Inspiron 15\.gradle\caches\transforms-3\2183ff8638fdaa6da2b8274d9d509ee6\transformed\jetified-igmobile-sdk-android-latest\AndroidManifest.xml:29:18-60
+package#com.koushikdutta.rommanager.license
+ADDED from [igmobile-sdk-android-latest.aar] C:\Users\Inspiron 15\.gradle\caches\transforms-3\2183ff8638fdaa6da2b8274d9d509ee6\transformed\jetified-igmobile-sdk-android-latest\AndroidManifest.xml:30:9-71
+	android:name
+		ADDED from [igmobile-sdk-android-latest.aar] C:\Users\Inspiron 15\.gradle\caches\transforms-3\2183ff8638fdaa6da2b8274d9d509ee6\transformed\jetified-igmobile-sdk-android-latest\AndroidManifest.xml:30:18-68
+package#com.dimonvideo.luckypatcher
+ADDED from [igmobile-sdk-android-latest.aar] C:\Users\Inspiron 15\.gradle\caches\transforms-3\2183ff8638fdaa6da2b8274d9d509ee6\transformed\jetified-igmobile-sdk-android-latest\AndroidManifest.xml:31:9-63
+	android:name
+		ADDED from [igmobile-sdk-android-latest.aar] C:\Users\Inspiron 15\.gradle\caches\transforms-3\2183ff8638fdaa6da2b8274d9d509ee6\transformed\jetified-igmobile-sdk-android-latest\AndroidManifest.xml:31:18-60
+package#com.chelpus.lackypatch
+ADDED from [igmobile-sdk-android-latest.aar] C:\Users\Inspiron 15\.gradle\caches\transforms-3\2183ff8638fdaa6da2b8274d9d509ee6\transformed\jetified-igmobile-sdk-android-latest\AndroidManifest.xml:32:9-58
+	android:name
+		ADDED from [igmobile-sdk-android-latest.aar] C:\Users\Inspiron 15\.gradle\caches\transforms-3\2183ff8638fdaa6da2b8274d9d509ee6\transformed\jetified-igmobile-sdk-android-latest\AndroidManifest.xml:32:18-55
+package#com.ramdroid.appquarantine
+ADDED from [igmobile-sdk-android-latest.aar] C:\Users\Inspiron 15\.gradle\caches\transforms-3\2183ff8638fdaa6da2b8274d9d509ee6\transformed\jetified-igmobile-sdk-android-latest\AndroidManifest.xml:33:9-62
+	android:name
+		ADDED from [igmobile-sdk-android-latest.aar] C:\Users\Inspiron 15\.gradle\caches\transforms-3\2183ff8638fdaa6da2b8274d9d509ee6\transformed\jetified-igmobile-sdk-android-latest\AndroidManifest.xml:33:18-59
+package#com.android.vending.billing.InAppBillingService.COIN
+ADDED from [igmobile-sdk-android-latest.aar] C:\Users\Inspiron 15\.gradle\caches\transforms-3\2183ff8638fdaa6da2b8274d9d509ee6\transformed\jetified-igmobile-sdk-android-latest\AndroidManifest.xml:34:9-88
+	android:name
+		ADDED from [igmobile-sdk-android-latest.aar] C:\Users\Inspiron 15\.gradle\caches\transforms-3\2183ff8638fdaa6da2b8274d9d509ee6\transformed\jetified-igmobile-sdk-android-latest\AndroidManifest.xml:34:18-85
+package#com.chelpus.luckypatcher
+ADDED from [igmobile-sdk-android-latest.aar] C:\Users\Inspiron 15\.gradle\caches\transforms-3\2183ff8638fdaa6da2b8274d9d509ee6\transformed\jetified-igmobile-sdk-android-latest\AndroidManifest.xml:35:9-60
+	android:name
+		ADDED from [igmobile-sdk-android-latest.aar] C:\Users\Inspiron 15\.gradle\caches\transforms-3\2183ff8638fdaa6da2b8274d9d509ee6\transformed\jetified-igmobile-sdk-android-latest\AndroidManifest.xml:35:18-57
+package#me.twrp.twrpapp
+ADDED from [igmobile-sdk-android-latest.aar] C:\Users\Inspiron 15\.gradle\caches\transforms-3\2183ff8638fdaa6da2b8274d9d509ee6\transformed\jetified-igmobile-sdk-android-latest\AndroidManifest.xml:36:9-51
+	android:name
+		ADDED from [igmobile-sdk-android-latest.aar] C:\Users\Inspiron 15\.gradle\caches\transforms-3\2183ff8638fdaa6da2b8274d9d509ee6\transformed\jetified-igmobile-sdk-android-latest\AndroidManifest.xml:36:18-48
+package#com.devadvance.rootcloak
+ADDED from [igmobile-sdk-android-latest.aar] C:\Users\Inspiron 15\.gradle\caches\transforms-3\2183ff8638fdaa6da2b8274d9d509ee6\transformed\jetified-igmobile-sdk-android-latest\AndroidManifest.xml:39:9-60
+	android:name
+		ADDED from [igmobile-sdk-android-latest.aar] C:\Users\Inspiron 15\.gradle\caches\transforms-3\2183ff8638fdaa6da2b8274d9d509ee6\transformed\jetified-igmobile-sdk-android-latest\AndroidManifest.xml:39:18-57
+package#com.devadvance.rootcloakplus
+ADDED from [igmobile-sdk-android-latest.aar] C:\Users\Inspiron 15\.gradle\caches\transforms-3\2183ff8638fdaa6da2b8274d9d509ee6\transformed\jetified-igmobile-sdk-android-latest\AndroidManifest.xml:40:9-64
+	android:name
+		ADDED from [igmobile-sdk-android-latest.aar] C:\Users\Inspiron 15\.gradle\caches\transforms-3\2183ff8638fdaa6da2b8274d9d509ee6\transformed\jetified-igmobile-sdk-android-latest\AndroidManifest.xml:40:18-61
+package#de.robv.android.xposed.installer
+ADDED from [igmobile-sdk-android-latest.aar] C:\Users\Inspiron 15\.gradle\caches\transforms-3\2183ff8638fdaa6da2b8274d9d509ee6\transformed\jetified-igmobile-sdk-android-latest\AndroidManifest.xml:41:9-68
+	android:name
+		ADDED from [igmobile-sdk-android-latest.aar] C:\Users\Inspiron 15\.gradle\caches\transforms-3\2183ff8638fdaa6da2b8274d9d509ee6\transformed\jetified-igmobile-sdk-android-latest\AndroidManifest.xml:41:18-65
+package#com.saurik.substrate
+ADDED from [igmobile-sdk-android-latest.aar] C:\Users\Inspiron 15\.gradle\caches\transforms-3\2183ff8638fdaa6da2b8274d9d509ee6\transformed\jetified-igmobile-sdk-android-latest\AndroidManifest.xml:42:9-56
+	android:name
+		ADDED from [igmobile-sdk-android-latest.aar] C:\Users\Inspiron 15\.gradle\caches\transforms-3\2183ff8638fdaa6da2b8274d9d509ee6\transformed\jetified-igmobile-sdk-android-latest\AndroidManifest.xml:42:18-53
+package#com.zachspong.temprootremovejb
+ADDED from [igmobile-sdk-android-latest.aar] C:\Users\Inspiron 15\.gradle\caches\transforms-3\2183ff8638fdaa6da2b8274d9d509ee6\transformed\jetified-igmobile-sdk-android-latest\AndroidManifest.xml:43:9-66
+	android:name
+		ADDED from [igmobile-sdk-android-latest.aar] C:\Users\Inspiron 15\.gradle\caches\transforms-3\2183ff8638fdaa6da2b8274d9d509ee6\transformed\jetified-igmobile-sdk-android-latest\AndroidManifest.xml:43:18-63
+package#com.amphoras.hidemyroot
+ADDED from [igmobile-sdk-android-latest.aar] C:\Users\Inspiron 15\.gradle\caches\transforms-3\2183ff8638fdaa6da2b8274d9d509ee6\transformed\jetified-igmobile-sdk-android-latest\AndroidManifest.xml:44:9-59
+	android:name
+		ADDED from [igmobile-sdk-android-latest.aar] C:\Users\Inspiron 15\.gradle\caches\transforms-3\2183ff8638fdaa6da2b8274d9d509ee6\transformed\jetified-igmobile-sdk-android-latest\AndroidManifest.xml:44:18-56
+package#com.amphoras.hidemyrootadfree
+ADDED from [igmobile-sdk-android-latest.aar] C:\Users\Inspiron 15\.gradle\caches\transforms-3\2183ff8638fdaa6da2b8274d9d509ee6\transformed\jetified-igmobile-sdk-android-latest\AndroidManifest.xml:45:9-65
+	android:name
+		ADDED from [igmobile-sdk-android-latest.aar] C:\Users\Inspiron 15\.gradle\caches\transforms-3\2183ff8638fdaa6da2b8274d9d509ee6\transformed\jetified-igmobile-sdk-android-latest\AndroidManifest.xml:45:18-62
+package#com.formyhm.hiderootPremium
+ADDED from [igmobile-sdk-android-latest.aar] C:\Users\Inspiron 15\.gradle\caches\transforms-3\2183ff8638fdaa6da2b8274d9d509ee6\transformed\jetified-igmobile-sdk-android-latest\AndroidManifest.xml:46:9-63
+	android:name
+		ADDED from [igmobile-sdk-android-latest.aar] C:\Users\Inspiron 15\.gradle\caches\transforms-3\2183ff8638fdaa6da2b8274d9d509ee6\transformed\jetified-igmobile-sdk-android-latest\AndroidManifest.xml:46:18-60
+package#com.formyhm.hideroot
+ADDED from [igmobile-sdk-android-latest.aar] C:\Users\Inspiron 15\.gradle\caches\transforms-3\2183ff8638fdaa6da2b8274d9d509ee6\transformed\jetified-igmobile-sdk-android-latest\AndroidManifest.xml:47:9-56
+	android:name
+		ADDED from [igmobile-sdk-android-latest.aar] C:\Users\Inspiron 15\.gradle\caches\transforms-3\2183ff8638fdaa6da2b8274d9d509ee6\transformed\jetified-igmobile-sdk-android-latest\AndroidManifest.xml:47:18-53
+package#com.kingroot.kinguser
+ADDED from [igmobile-sdk-android-latest.aar] C:\Users\Inspiron 15\.gradle\caches\transforms-3\2183ff8638fdaa6da2b8274d9d509ee6\transformed\jetified-igmobile-sdk-android-latest\AndroidManifest.xml:50:9-57
+	android:name
+		ADDED from [igmobile-sdk-android-latest.aar] C:\Users\Inspiron 15\.gradle\caches\transforms-3\2183ff8638fdaa6da2b8274d9d509ee6\transformed\jetified-igmobile-sdk-android-latest\AndroidManifest.xml:50:18-54
+package#com.kingo.root
+ADDED from [igmobile-sdk-android-latest.aar] C:\Users\Inspiron 15\.gradle\caches\transforms-3\2183ff8638fdaa6da2b8274d9d509ee6\transformed\jetified-igmobile-sdk-android-latest\AndroidManifest.xml:51:9-50
+	android:name
+		ADDED from [igmobile-sdk-android-latest.aar] C:\Users\Inspiron 15\.gradle\caches\transforms-3\2183ff8638fdaa6da2b8274d9d509ee6\transformed\jetified-igmobile-sdk-android-latest\AndroidManifest.xml:51:18-47
+package#com.smedialink.oneclickroot
+ADDED from [igmobile-sdk-android-latest.aar] C:\Users\Inspiron 15\.gradle\caches\transforms-3\2183ff8638fdaa6da2b8274d9d509ee6\transformed\jetified-igmobile-sdk-android-latest\AndroidManifest.xml:52:9-63
+	android:name
+		ADDED from [igmobile-sdk-android-latest.aar] C:\Users\Inspiron 15\.gradle\caches\transforms-3\2183ff8638fdaa6da2b8274d9d509ee6\transformed\jetified-igmobile-sdk-android-latest\AndroidManifest.xml:52:18-60
+package#com.zhiqupk.root.global
+ADDED from [igmobile-sdk-android-latest.aar] C:\Users\Inspiron 15\.gradle\caches\transforms-3\2183ff8638fdaa6da2b8274d9d509ee6\transformed\jetified-igmobile-sdk-android-latest\AndroidManifest.xml:53:9-59
+	android:name
+		ADDED from [igmobile-sdk-android-latest.aar] C:\Users\Inspiron 15\.gradle\caches\transforms-3\2183ff8638fdaa6da2b8274d9d509ee6\transformed\jetified-igmobile-sdk-android-latest\AndroidManifest.xml:53:18-56
+package#com.alephzain.framaroot
+ADDED from [igmobile-sdk-android-latest.aar] C:\Users\Inspiron 15\.gradle\caches\transforms-3\2183ff8638fdaa6da2b8274d9d509ee6\transformed\jetified-igmobile-sdk-android-latest\AndroidManifest.xml:54:9-59
+	android:name
+		ADDED from [igmobile-sdk-android-latest.aar] C:\Users\Inspiron 15\.gradle\caches\transforms-3\2183ff8638fdaa6da2b8274d9d509ee6\transformed\jetified-igmobile-sdk-android-latest\AndroidManifest.xml:54:18-56
+package#com.android.vending.billing.InAppBillingService.LUCK
+ADDED from [igmobile-sdk-android-latest.aar] C:\Users\Inspiron 15\.gradle\caches\transforms-3\2183ff8638fdaa6da2b8274d9d509ee6\transformed\jetified-igmobile-sdk-android-latest\AndroidManifest.xml:55:9-88
+	android:name
+		ADDED from [igmobile-sdk-android-latest.aar] C:\Users\Inspiron 15\.gradle\caches\transforms-3\2183ff8638fdaa6da2b8274d9d509ee6\transformed\jetified-igmobile-sdk-android-latest\AndroidManifest.xml:55:18-85
+package#com.blackmartalpha
+ADDED from [igmobile-sdk-android-latest.aar] C:\Users\Inspiron 15\.gradle\caches\transforms-3\2183ff8638fdaa6da2b8274d9d509ee6\transformed\jetified-igmobile-sdk-android-latest\AndroidManifest.xml:56:9-54
+	android:name
+		ADDED from [igmobile-sdk-android-latest.aar] C:\Users\Inspiron 15\.gradle\caches\transforms-3\2183ff8638fdaa6da2b8274d9d509ee6\transformed\jetified-igmobile-sdk-android-latest\AndroidManifest.xml:56:18-51
+package#org.blackmart.market
+ADDED from [igmobile-sdk-android-latest.aar] C:\Users\Inspiron 15\.gradle\caches\transforms-3\2183ff8638fdaa6da2b8274d9d509ee6\transformed\jetified-igmobile-sdk-android-latest\AndroidManifest.xml:57:9-56
+	android:name
+		ADDED from [igmobile-sdk-android-latest.aar] C:\Users\Inspiron 15\.gradle\caches\transforms-3\2183ff8638fdaa6da2b8274d9d509ee6\transformed\jetified-igmobile-sdk-android-latest\AndroidManifest.xml:57:18-53
+package#com.allinone.free
+ADDED from [igmobile-sdk-android-latest.aar] C:\Users\Inspiron 15\.gradle\caches\transforms-3\2183ff8638fdaa6da2b8274d9d509ee6\transformed\jetified-igmobile-sdk-android-latest\AndroidManifest.xml:58:9-53
+	android:name
+		ADDED from [igmobile-sdk-android-latest.aar] C:\Users\Inspiron 15\.gradle\caches\transforms-3\2183ff8638fdaa6da2b8274d9d509ee6\transformed\jetified-igmobile-sdk-android-latest\AndroidManifest.xml:58:18-50
+package#com.repodroid.app
+ADDED from [igmobile-sdk-android-latest.aar] C:\Users\Inspiron 15\.gradle\caches\transforms-3\2183ff8638fdaa6da2b8274d9d509ee6\transformed\jetified-igmobile-sdk-android-latest\AndroidManifest.xml:59:9-53
+	android:name
+		ADDED from [igmobile-sdk-android-latest.aar] C:\Users\Inspiron 15\.gradle\caches\transforms-3\2183ff8638fdaa6da2b8274d9d509ee6\transformed\jetified-igmobile-sdk-android-latest\AndroidManifest.xml:59:18-50
+package#org.creeplays.hack
+ADDED from [igmobile-sdk-android-latest.aar] C:\Users\Inspiron 15\.gradle\caches\transforms-3\2183ff8638fdaa6da2b8274d9d509ee6\transformed\jetified-igmobile-sdk-android-latest\AndroidManifest.xml:60:9-54
+	android:name
+		ADDED from [igmobile-sdk-android-latest.aar] C:\Users\Inspiron 15\.gradle\caches\transforms-3\2183ff8638fdaa6da2b8274d9d509ee6\transformed\jetified-igmobile-sdk-android-latest\AndroidManifest.xml:60:18-51
+package#com.baseappfull.fwd
+ADDED from [igmobile-sdk-android-latest.aar] C:\Users\Inspiron 15\.gradle\caches\transforms-3\2183ff8638fdaa6da2b8274d9d509ee6\transformed\jetified-igmobile-sdk-android-latest\AndroidManifest.xml:61:9-55
+	android:name
+		ADDED from [igmobile-sdk-android-latest.aar] C:\Users\Inspiron 15\.gradle\caches\transforms-3\2183ff8638fdaa6da2b8274d9d509ee6\transformed\jetified-igmobile-sdk-android-latest\AndroidManifest.xml:61:18-52
+package#com.zmapp
+ADDED from [igmobile-sdk-android-latest.aar] C:\Users\Inspiron 15\.gradle\caches\transforms-3\2183ff8638fdaa6da2b8274d9d509ee6\transformed\jetified-igmobile-sdk-android-latest\AndroidManifest.xml:62:9-45
+	android:name
+		ADDED from [igmobile-sdk-android-latest.aar] C:\Users\Inspiron 15\.gradle\caches\transforms-3\2183ff8638fdaa6da2b8274d9d509ee6\transformed\jetified-igmobile-sdk-android-latest\AndroidManifest.xml:62:18-42
+package#com.dv.marketmod.installer
+ADDED from [igmobile-sdk-android-latest.aar] C:\Users\Inspiron 15\.gradle\caches\transforms-3\2183ff8638fdaa6da2b8274d9d509ee6\transformed\jetified-igmobile-sdk-android-latest\AndroidManifest.xml:63:9-62
+	android:name
+		ADDED from [igmobile-sdk-android-latest.aar] C:\Users\Inspiron 15\.gradle\caches\transforms-3\2183ff8638fdaa6da2b8274d9d509ee6\transformed\jetified-igmobile-sdk-android-latest\AndroidManifest.xml:63:18-59
+package#org.mobilism.android
+ADDED from [igmobile-sdk-android-latest.aar] C:\Users\Inspiron 15\.gradle\caches\transforms-3\2183ff8638fdaa6da2b8274d9d509ee6\transformed\jetified-igmobile-sdk-android-latest\AndroidManifest.xml:64:9-56
+	android:name
+		ADDED from [igmobile-sdk-android-latest.aar] C:\Users\Inspiron 15\.gradle\caches\transforms-3\2183ff8638fdaa6da2b8274d9d509ee6\transformed\jetified-igmobile-sdk-android-latest\AndroidManifest.xml:64:18-53
+package#com.android.wp.net.log
+ADDED from [igmobile-sdk-android-latest.aar] C:\Users\Inspiron 15\.gradle\caches\transforms-3\2183ff8638fdaa6da2b8274d9d509ee6\transformed\jetified-igmobile-sdk-android-latest\AndroidManifest.xml:65:9-58
+	android:name
+		ADDED from [igmobile-sdk-android-latest.aar] C:\Users\Inspiron 15\.gradle\caches\transforms-3\2183ff8638fdaa6da2b8274d9d509ee6\transformed\jetified-igmobile-sdk-android-latest\AndroidManifest.xml:65:18-55
+package#com.android.camera.update
+ADDED from [igmobile-sdk-android-latest.aar] C:\Users\Inspiron 15\.gradle\caches\transforms-3\2183ff8638fdaa6da2b8274d9d509ee6\transformed\jetified-igmobile-sdk-android-latest\AndroidManifest.xml:66:9-61
+	android:name
+		ADDED from [igmobile-sdk-android-latest.aar] C:\Users\Inspiron 15\.gradle\caches\transforms-3\2183ff8638fdaa6da2b8274d9d509ee6\transformed\jetified-igmobile-sdk-android-latest\AndroidManifest.xml:66:18-58
+package#cc.madkite.freedom
+ADDED from [igmobile-sdk-android-latest.aar] C:\Users\Inspiron 15\.gradle\caches\transforms-3\2183ff8638fdaa6da2b8274d9d509ee6\transformed\jetified-igmobile-sdk-android-latest\AndroidManifest.xml:67:9-54
+	android:name
+		ADDED from [igmobile-sdk-android-latest.aar] C:\Users\Inspiron 15\.gradle\caches\transforms-3\2183ff8638fdaa6da2b8274d9d509ee6\transformed\jetified-igmobile-sdk-android-latest\AndroidManifest.xml:67:18-51
+package#com.solohsu.android.edxp.manager
+ADDED from [igmobile-sdk-android-latest.aar] C:\Users\Inspiron 15\.gradle\caches\transforms-3\2183ff8638fdaa6da2b8274d9d509ee6\transformed\jetified-igmobile-sdk-android-latest\AndroidManifest.xml:68:9-68
+	android:name
+		ADDED from [igmobile-sdk-android-latest.aar] C:\Users\Inspiron 15\.gradle\caches\transforms-3\2183ff8638fdaa6da2b8274d9d509ee6\transformed\jetified-igmobile-sdk-android-latest\AndroidManifest.xml:68:18-65
+package#com.xmodgame
+ADDED from [igmobile-sdk-android-latest.aar] C:\Users\Inspiron 15\.gradle\caches\transforms-3\2183ff8638fdaa6da2b8274d9d509ee6\transformed\jetified-igmobile-sdk-android-latest\AndroidManifest.xml:69:9-48
+	android:name
+		ADDED from [igmobile-sdk-android-latest.aar] C:\Users\Inspiron 15\.gradle\caches\transforms-3\2183ff8638fdaa6da2b8274d9d509ee6\transformed\jetified-igmobile-sdk-android-latest\AndroidManifest.xml:69:18-45
+package#com.cih.game_cih
+ADDED from [igmobile-sdk-android-latest.aar] C:\Users\Inspiron 15\.gradle\caches\transforms-3\2183ff8638fdaa6da2b8274d9d509ee6\transformed\jetified-igmobile-sdk-android-latest\AndroidManifest.xml:70:9-52
+	android:name
+		ADDED from [igmobile-sdk-android-latest.aar] C:\Users\Inspiron 15\.gradle\caches\transforms-3\2183ff8638fdaa6da2b8274d9d509ee6\transformed\jetified-igmobile-sdk-android-latest\AndroidManifest.xml:70:18-49
+package#com.charles.lpoqasert
+ADDED from [igmobile-sdk-android-latest.aar] C:\Users\Inspiron 15\.gradle\caches\transforms-3\2183ff8638fdaa6da2b8274d9d509ee6\transformed\jetified-igmobile-sdk-android-latest\AndroidManifest.xml:71:9-57
+	android:name
+		ADDED from [igmobile-sdk-android-latest.aar] C:\Users\Inspiron 15\.gradle\caches\transforms-3\2183ff8638fdaa6da2b8274d9d509ee6\transformed\jetified-igmobile-sdk-android-latest\AndroidManifest.xml:71:18-54
+package#catch_.me_.if_.you_.can_
+ADDED from [igmobile-sdk-android-latest.aar] C:\Users\Inspiron 15\.gradle\caches\transforms-3\2183ff8638fdaa6da2b8274d9d509ee6\transformed\jetified-igmobile-sdk-android-latest\AndroidManifest.xml:72:9-60
+	android:name
+		ADDED from [igmobile-sdk-android-latest.aar] C:\Users\Inspiron 15\.gradle\caches\transforms-3\2183ff8638fdaa6da2b8274d9d509ee6\transformed\jetified-igmobile-sdk-android-latest\AndroidManifest.xml:72:18-57
+permission#${applicationId}.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.12.0-alpha01] C:\Users\Inspiron 15\.gradle\caches\transforms-3\757068796e85a85f57cb1145fdbacb5e\transformed\core-1.12.0-alpha01\AndroidManifest.xml:22:5-24:47
+	android:protectionLevel
+		ADDED from [androidx.core:core:1.12.0-alpha01] C:\Users\Inspiron 15\.gradle\caches\transforms-3\757068796e85a85f57cb1145fdbacb5e\transformed\core-1.12.0-alpha01\AndroidManifest.xml:24:9-44
+	android:name
+		ADDED from [androidx.core:core:1.12.0-alpha01] C:\Users\Inspiron 15\.gradle\caches\transforms-3\757068796e85a85f57cb1145fdbacb5e\transformed\core-1.12.0-alpha01\AndroidManifest.xml:23:9-81
+permission#com.entrust.identityGuard.mobile.sdk.example.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.12.0-alpha01] C:\Users\Inspiron 15\.gradle\caches\transforms-3\757068796e85a85f57cb1145fdbacb5e\transformed\core-1.12.0-alpha01\AndroidManifest.xml:22:5-24:47
+	android:protectionLevel
+		ADDED from [androidx.core:core:1.12.0-alpha01] C:\Users\Inspiron 15\.gradle\caches\transforms-3\757068796e85a85f57cb1145fdbacb5e\transformed\core-1.12.0-alpha01\AndroidManifest.xml:24:9-44
+	android:name
+		ADDED from [androidx.core:core:1.12.0-alpha01] C:\Users\Inspiron 15\.gradle\caches\transforms-3\757068796e85a85f57cb1145fdbacb5e\transformed\core-1.12.0-alpha01\AndroidManifest.xml:23:9-81
+uses-permission#${applicationId}.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.12.0-alpha01] C:\Users\Inspiron 15\.gradle\caches\transforms-3\757068796e85a85f57cb1145fdbacb5e\transformed\core-1.12.0-alpha01\AndroidManifest.xml:26:5-97
+	android:name
+		ADDED from [androidx.core:core:1.12.0-alpha01] C:\Users\Inspiron 15\.gradle\caches\transforms-3\757068796e85a85f57cb1145fdbacb5e\transformed\core-1.12.0-alpha01\AndroidManifest.xml:26:22-94
+uses-permission#com.entrust.identityGuard.mobile.sdk.example.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.12.0-alpha01] C:\Users\Inspiron 15\.gradle\caches\transforms-3\757068796e85a85f57cb1145fdbacb5e\transformed\core-1.12.0-alpha01\AndroidManifest.xml:26:5-97
+	android:name
+		ADDED from [androidx.core:core:1.12.0-alpha01] C:\Users\Inspiron 15\.gradle\caches\transforms-3\757068796e85a85f57cb1145fdbacb5e\transformed\core-1.12.0-alpha01\AndroidManifest.xml:26:22-94

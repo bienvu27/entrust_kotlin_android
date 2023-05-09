@@ -1,0 +1,54 @@
+[
+    {
+        "merged": "C:\\Users\\Inspiron 15\\Downloads\\entrust\\IGMobileSDK\\Android\\example\\app\\build\\intermediates\\merged_res\\debug\\drawable-v24_entrust.png.flat",
+        "source": "C:\\Users\\Inspiron 15\\Downloads\\entrust\\IGMobileSDK\\Android\\example\\app\\src\\main\\res\\drawable-v24\\entrust.png"
+    },
+    {
+        "merged": "C:\\Users\\Inspiron 15\\Downloads\\entrust\\IGMobileSDK\\Android\\example\\app\\build\\intermediates\\merged_res\\debug\\layout_classic_transaction.xml.flat",
+        "source": "C:\\Users\\Inspiron 15\\Downloads\\entrust\\IGMobileSDK\\Android\\example\\app\\src\\main\\res\\layout\\classic_transaction.xml"
+    },
+    {
+        "merged": "C:\\Users\\Inspiron 15\\Downloads\\entrust\\IGMobileSDK\\Android\\example\\app\\build\\intermediates\\merged_res\\debug\\layout_transaction_details_row.xml.flat",
+        "source": "C:\\Users\\Inspiron 15\\Downloads\\entrust\\IGMobileSDK\\Android\\example\\app\\src\\main\\res\\layout\\transaction_details_row.xml"
+    },
+    {
+        "merged": "C:\\Users\\Inspiron 15\\Downloads\\entrust\\IGMobileSDK\\Android\\example\\app\\build\\intermediates\\merged_res\\debug\\layout_establish_pin.xml.flat",
+        "source": "C:\\Users\\Inspiron 15\\Downloads\\entrust\\IGMobileSDK\\Android\\example\\app\\src\\main\\res\\layout\\establish_pin.xml"
+    },
+    {
+        "merged": "C:\\Users\\Inspiron 15\\Downloads\\entrust\\IGMobileSDK\\Android\\example\\app\\build\\intermediates\\merged_res\\debug\\layout_security_code.xml.flat",
+        "source": "C:\\Users\\Inspiron 15\\Downloads\\entrust\\IGMobileSDK\\Android\\example\\app\\src\\main\\res\\layout\\security_code.xml"
+    },
+    {
+        "merged": "C:\\Users\\Inspiron 15\\Downloads\\entrust\\IGMobileSDK\\Android\\example\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_email_logs.xml.flat",
+        "source": "C:\\Users\\Inspiron 15\\Downloads\\entrust\\IGMobileSDK\\Android\\example\\app\\src\\main\\res\\layout\\activity_email_logs.xml"
+    },
+    {
+        "merged": "C:\\Users\\Inspiron 15\\Downloads\\entrust\\IGMobileSDK\\Android\\example\\app\\build\\intermediates\\merged_res\\debug\\layout_dialog_edit_text.xml.flat",
+        "source": "C:\\Users\\Inspiron 15\\Downloads\\entrust\\IGMobileSDK\\Android\\example\\app\\src\\main\\res\\layout\\dialog_edit_text.xml"
+    },
+    {
+        "merged": "C:\\Users\\Inspiron 15\\Downloads\\entrust\\IGMobileSDK\\Android\\example\\app\\build\\intermediates\\merged_res\\debug\\layout_transaction_item.xml.flat",
+        "source": "C:\\Users\\Inspiron 15\\Downloads\\entrust\\IGMobileSDK\\Android\\example\\app\\src\\main\\res\\layout\\transaction_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\Inspiron 15\\Downloads\\entrust\\IGMobileSDK\\Android\\example\\app\\build\\intermediates\\merged_res\\debug\\layout_add_identity.xml.flat",
+        "source": "C:\\Users\\Inspiron 15\\Downloads\\entrust\\IGMobileSDK\\Android\\example\\app\\src\\main\\res\\layout\\add_identity.xml"
+    },
+    {
+        "merged": "C:\\Users\\Inspiron 15\\Downloads\\entrust\\IGMobileSDK\\Android\\example\\app\\build\\intermediates\\merged_res\\debug\\layout_online_activation.xml.flat",
+        "source": "C:\\Users\\Inspiron 15\\Downloads\\entrust\\IGMobileSDK\\Android\\example\\app\\src\\main\\res\\layout\\online_activation.xml"
+    },
+    {
+        "merged": "C:\\Users\\Inspiron 15\\Downloads\\entrust\\IGMobileSDK\\Android\\example\\app\\build\\intermediates\\merged_res\\debug\\xml_application_log_file_path.xml.flat",
+        "source": "C:\\Users\\Inspiron 15\\Downloads\\entrust\\IGMobileSDK\\Android\\example\\app\\src\\main\\res\\xml\\application_log_file_path.xml"
+    },
+    {
+        "merged": "C:\\Users\\Inspiron 15\\Downloads\\entrust\\IGMobileSDK\\Android\\example\\app\\build\\intermediates\\merged_res\\debug\\layout_registration_code.xml.flat",
+        "source": "C:\\Users\\Inspiron 15\\Downloads\\entrust\\IGMobileSDK\\Android\\example\\app\\src\\main\\res\\layout\\registration_code.xml"
+    },
+    {
+        "merged": "C:\\Users\\Inspiron 15\\Downloads\\entrust\\IGMobileSDK\\Android\\example\\app\\build\\intermediates\\merged_res\\debug\\layout_transaction.xml.flat",
+        "source": "C:\\Users\\Inspiron 15\\Downloads\\entrust\\IGMobileSDK\\Android\\example\\app\\src\\main\\res\\layout\\transaction.xml"
+    }
+]

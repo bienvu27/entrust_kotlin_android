@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.entrust.identityGuard.mobile.sdk.example">
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <uses-sdk tools:overrideLibrary="androidx.security" />
+    <!--
+ Required permission to be able to create and administer tokens in the Samsung
+     KNOX Trusted Execution Environment.
+    -->
+    <uses-permission android:name="android.permission.sec.OTP_PROVISION" />
+    <!-- Require external write permission in order to write log files. -->
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+
+    <application
+        android:name=".SampleApplication"
+        android:icon="@drawable/entrust"
+        android:label="@string/app_name"
+        android:theme="@style/AppBaseTheme">
+        <activity
+            android:name=".AddIdentity"
+            android:clearTaskOnLaunch="true"
+            android:configChanges="orientation|keyboardHidden"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".EstablishPIN"
+            android:configChanges="orientation|keyboardHidden" />
+        <activity
+            android:name=".RegistrationCode"
+            android:configChanges="orientation|keyboardHidden" />
+        <activity
+            android:name=".SecurityCode"
+            android:configChanges="orientation|keyboardHidden" />
+        <activity
+            android:name=".OnlineActivation"
+            android:configChanges="orientation|keyboardHidden"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+
+                <data android:scheme="igmobileotp" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".TransactionProcess"
+            android:configChanges="orientation|keyboardHidden" />
+        <activity
+            android:name=".ClassicTransaction"
+            android:configChanges="orientation|keyboardHidden" />
+        <!-- File Provider Starts -->
+        <provider
+            android:name="androidx.core.content.FileProvider"
+            android:authorities="com.entrust.identityGuard.mobile.sdk.example.fileProvider"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/application_log_file_path" />
+        </provider>
+    </application>
+
+</manifest>

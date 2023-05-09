@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+  
+    <TextView android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:gravity="center_horizontal"
+        android:textStyle="bold"
+        android:layout_width="fill_parent"
+        android:text="@string/title_regCode"
+        android:id="@+id/title"/>
+  
+    <TextView android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/intro_regCode"
+        android:layout_below="@+id/title"
+        android:id="@+id/reg_code_info"/>
+  
+    <TextView android:textStyle="bold"
+        android:layout_width="wrap_content"
+        android:id="@+id/regCode"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:textSize="20sp"
+        android:layout_below="@+id/reg_code_info"/>
+  
+    <View android:layout_height="1dp"
+        android:layout_width="match_parent"
+        android:layout_marginLeft="4dp"
+        android:layout_marginRight="4dp"
+        android:background="?android:attr/dividerVertical"
+        android:layout_above="@+id/buttons"/>
+    
+    <LinearLayout android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:id="@+id/buttons"
+        android:orientation="horizontal"
+        android:layout_marginTop="2dp"
+        android:layout_alignParentBottom="true"
+        style="?android:attr/buttonBarStyle">
+
+        <Button android:id="@+id/ok"
+            android:layout_height="wrap_content"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:text="@string/label_OK"
+            style="?android:attr/buttonBarButtonStyle"/>
+    </LinearLayout>
+</RelativeLayout>

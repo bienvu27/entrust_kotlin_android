@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    
+    <TextView android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/summary"/>
+    
+    <TableLayout android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/summary"
+        android:id="@+id/details_table">
+        
+    </TableLayout>
+
+    <View android:layout_height="1dp"
+        android:layout_width="match_parent"
+        android:layout_marginLeft="4dp"
+        android:layout_marginRight="4dp"
+        android:background="?android:attr/dividerVertical"
+        android:layout_above="@+id/buttons"/>
+    
+    <LinearLayout android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:id="@+id/buttons"
+        android:orientation="horizontal"
+        android:layout_marginTop="2dp"
+        android:layout_alignParentBottom="true"
+        style="?android:attr/buttonBarStyle">
+    
+        <Button android:id="@+id/concern"
+            android:layout_height="wrap_content"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:text="@string/label_concern"
+            style="?android:attr/buttonBarButtonStyle"/>
+        <Button android:id="@+id/cancel"
+            android:layout_height="wrap_content"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:text="@string/label_cancel"
+            style="?android:attr/buttonBarButtonStyle"/>
+        <Button android:id="@+id/confirm"
+            android:layout_height="wrap_content"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:text="@string/label_confirm"
+            style="?android:attr/buttonBarButtonStyle"/>
+    </LinearLayout>
+</RelativeLayout>
